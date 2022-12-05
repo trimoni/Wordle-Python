@@ -9,7 +9,8 @@ print('WORDLE')
 
 correct = 'SHAKE'
 
-guess = input('Please guess. > ').upper()
+for _ in range(6):
+  guess = input('Please guess. > ').upper()
 
 #Check EACH Letter
 for i in range(0, 5):
