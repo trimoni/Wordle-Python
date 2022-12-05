@@ -11,8 +11,6 @@ correct = 'SHAKE'
 
 guess = input('Please guess. > ').upper()
 
-print(guess)
-
 #Check First Letter
 
 if guess[0] == correct[0]:
@@ -20,5 +18,5 @@ if guess[0] == correct[0]:
 elif guess[0] in correct:
   print(f"{BG_YELLOW}{guess[0]}{RESET}")
 else:
-  print('NOT IN WORD')
+  print(guess[0])
 
