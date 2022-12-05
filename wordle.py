@@ -14,9 +14,10 @@ guess = input('Please guess. > ').upper()
 #Check EACH Letter
 for i in range(0, 5):
   if guess[i] == correct[i]:
-    print(f"{BG_GREEN}{guess[i]}{RESET}")
+    print(f"{BG_GREEN}{guess[i]}{RESET}", end="")
   elif guess[i] in correct:
-    print(f"{BG_YELLOW}{guess[i]}{RESET}")
+    print(f"{BG_YELLOW}{guess[i]}{RESET}", end="")
   else:
-    print(guess[i])
+    print(guess[i], end="")
 
+print()
