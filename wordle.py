@@ -1,4 +1,4 @@
-import os
+import os, random
 os.system('clear')
 
 BG_GREEN = "\u001b[42m"
