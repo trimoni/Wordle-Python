@@ -1,6 +1,9 @@
 import os
 os.system('clear')
 
+BG_GREEN = "\u001b[42m"
+BG_YELLOW 
+
 print('WORDLE')
 
 correct = 'SHAKE'
