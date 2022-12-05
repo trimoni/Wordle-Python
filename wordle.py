@@ -18,7 +18,7 @@ print(guess)
 if guess[0] == correct[0]:
   print(f"{BG_GREEN}{guess[0]}{RESET}")
 elif guess[0] in correct:
-  print('IN WORD and WRONG SPOT')
+  print(f"{BG_YELLOW}{guess[0]}{RESET}")
 else:
   print('NOT IN WORD')
 
