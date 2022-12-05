@@ -11,12 +11,12 @@ correct = 'SHAKE'
 
 guess = input('Please guess. > ').upper()
 
-#Check First Letter
-
-if guess[0] == correct[0]:
-  print(f"{BG_GREEN}{guess[0]}{RESET}")
-elif guess[0] in correct:
-  print(f"{BG_YELLOW}{guess[0]}{RESET}")
-else:
-  print(guess[0])
+#Check EACH Letter
+for i in range(0, 5):
+  if guess[i] == correct[i]:
+    print(f"{BG_GREEN}{guess[i]}{RESET}")
+  elif guess[i] in correct:
+    print(f"{BG_YELLOW}{guess[i]}{RESET}")
+  else:
+    print(guess[i])
 
