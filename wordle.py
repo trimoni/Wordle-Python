@@ -22,3 +22,11 @@ for _ in range(6):
       print(guess[i], end="")
 
   print()
+
+# check if guess is correct
+  if guess == correct:
+    print('You win!')
+    exit()
+
+print('You lose!')
+print(f'The correct word was {correct}.')
