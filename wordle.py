@@ -7,7 +7,7 @@ RESET = "\u001b[0m"
 
 print('WORDLE')
 
-correct = 'SHAKE'
+correct = random.choice(['SHAKE', 'SHARE', 'PANIC', 'AMUSE', 'SHADE'])
 
 for _ in range(6):
   guess = input('Please guess. > ').upper()
